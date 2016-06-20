@@ -1,0 +1,48 @@
+html {height:100%}
+body {height:100%; margin:0; padding:0}
+#UsMap {height:50%; width:50%;}
+
+.Hidden {
+	display:none;
+}
+
+.selectedPizza {
+	border: solid;
+}
+
+.infoMessage {
+	font-size: 18px;
+	color: green;
+	font-weight: bold;
+	display: inline-block;
+    padding: 0.5em 1.5em;
+}
+
+.pizzaTypes li {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    color: #444;
+    text-shadow: #f7f7f7 0 1px 1px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #888;
+}
+
+.choosePizza {
+	float: left;
+}
+
+.PizzaPlaceName{
+	text-decoration: underline;
+}
+
+.selectedPizza {
+	float: right;
+}
+
+.label {
+	text-align: right; 
+	padding-right: 0.5em;
+}
